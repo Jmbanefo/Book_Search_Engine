@@ -13,7 +13,6 @@ import { saveBook, searchGoogleBooks } from '../utils/API';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 import { SAVE_BOOK } from '../utils/mutations';
 import { GET_ME } from '../utils/queries';
-import { Query } from '../../../server/schemas/resolvers';
 import{ useMutation } from '@apollo/client'; 
 
 const SearchBooks = () => {
