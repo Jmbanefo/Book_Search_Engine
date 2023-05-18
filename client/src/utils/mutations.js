@@ -26,8 +26,7 @@ export const LOGIN_USER = gql`
             savedBooks
             bookCount
             }
-        }
-    }`
+        }`
 
     export const REMOVE_BOOK = gql`
     mutation removeBook($bookID: String){ 
